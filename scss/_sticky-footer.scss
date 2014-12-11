@@ -1,0 +1,30 @@
+$footerHeight: 100px;
+$footerPadding: 10px;
+
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+    padding-top: 1px;
+    margin-top: 20px;
+}
+.wrapper:after {
+  content: "";
+  display: block;
+}
+footer{
+	height: $footerHeight + (2 * $footerPadding); 
+}
+footer {
+    
+    text-align: center;
+    	height: $footerHeight; 
+    padding: $footerPadding;
+  color: #444;
+    background-color: #ddd;
+}
