@@ -20,6 +20,12 @@
     margin: $margin;
     //overflow: scroll;
 }
+@mixin backgroundImageHeightCalculator($containerHeight, $padding, $margin){
+    height: $containerHeight + (2 * $padding + 2 * $margin);
+    padding: $padding;
+    margin: $margin;
+    //overflow: scroll;
+}
 @mixin rotate($degree, $animateTime){
     transition: all $animateTime linear;
     -ms-transform: rotate($degree);

@@ -1,14 +1,18 @@
 /**********Mixins**********/
 @import 'mixins';
+$jumbotronheight: 400px;
+$jumbotronpadding: 20px;
+.wrapper{
+        background: url(img/goodhill.jpg) no-repeat center center fixed;
+}
 .jumbobackground{
-    background: url(img/goodhill.jpg) no-repeat center center;
+    background: url(img/crash.jpg) no-repeat center center;
     background-size: 100%;
+    @include backgroundImageHeightCalculator($jumbotronheight, $jumbotronpadding, 0)
 }
 .jumbotron{
-    
-    background-color: rgba(255,255,255,.3);
-    height: 100%;
-    
+    background-color: rgba(255,255,255,.4);
+    height: $jumbotronheight;
     width: 100%;
 }
 
