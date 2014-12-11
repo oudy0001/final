@@ -68,6 +68,9 @@ html{
   height: 400px;
   width: 100%; }
 
+body, html, .wrapper {
+  height: 100%; }
+
 /**********Sticky Footer**********/
 * {
   margin: 0; }
