@@ -53,16 +53,44 @@ html{
         -ms-filter: "FlipH";
 }
 */
-.wrapper {
-  background: url(img/goodhill.jpg) no-repeat center center fixed; }
-
-.jumbobackground {
-  background: url(img/crash.jpg) no-repeat center center;
-  background-size: 100%;
-  height: 440px;
-  padding: 20px;
-  margin: 0; }
-
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .jumbobackground {
+    background: url(img/MountainBoard.jpg) no-repeat center center;
+    height: 440px;
+    padding: 20px;
+    margin: 0; } }
+@media only screen and (min-width: 480px) {
+  .jumbobackground {
+    background: url(img/MountainBoard.jpg) no-repeat center center;
+    background-size: 100%;
+    height: 440px;
+    padding: 20px;
+    margin: 0; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .jumbobackground {
+    background: url(img/Jumping.jpg) no-repeat center center;
+    background-size: 100%;
+    height: 440px;
+    padding: 20px;
+    margin: 0; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .jumbobackground {
+    background: url(img/Jumping.jpg) no-repeat center center;
+    background-size: 100%;
+    height: 440px;
+    padding: 20px;
+    margin: 0; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .jumbobackground {
+    background: url(img/crash.jpg) no-repeat center center;
+    background-size: 100%;
+    height: 440px;
+    padding: 20px;
+    margin: 0; } }
 .jumbotron {
   background-color: rgba(255, 255, 255, 0.4);
   height: 400px;
@@ -70,6 +98,19 @@ html{
 
 body, html, .wrapper {
   height: 100%; }
+
+.wrapper {
+  margin-bottom: 200px; }
+
+footer {
+  margin: 0 auto;
+  display: block;
+  background: white;
+  padding: 0.5rem;
+  position: fixed;
+  height: 70px;
+  bottom: 0;
+  width: 100%; }
 
 /**********Sticky Footer**********/
 * {
