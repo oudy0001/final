@@ -53,6 +53,9 @@ html{
         -ms-filter: "FlipH";
 }
 */
+table {
+  width: 100%; }
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .jumbobackground {
@@ -108,42 +111,38 @@ body, html, .wrapper {
   height: 100%; }
 
 .wrapper {
-  margin-bottom: 200px; }
+  margin-bottom: 200px;
+  padding-bottom: 200px; }
 
-footer {
-  margin: 0 auto;
-  display: block;
-  background: white;
-  padding: 0.5rem;
-  position: fixed;
-  height: 3rem;
-  bottom: 0;
-  width: 100%; }
+img {
+  width: 100%;
+  padding-top: 20px; }
 
 /**********Sticky Footer**********/
 * {
   margin: 0; }
 
 html, body {
-  height: 100%; }
+  min-height: 100%; }
 
 .wrapper {
   min-height: 100%;
   padding-top: 1px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  height: 100%;
+  overflow: scroll;
+  margin-bottom: 110px; }
 
 .wrapper:after {
   content: "";
   display: block; }
 
 footer {
-  height: 120px; }
-
-footer {
+  margin-top: 20px;
   text-align: center;
-  height: 100px;
+  height: 90px;
   padding: 10px;
-  color: #444;
-  background-color: #ddd; }
+  color: #ddd;
+  background-color: #333; }
 
 /*# sourceMappingURL=main.css.map */

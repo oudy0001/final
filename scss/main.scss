@@ -5,6 +5,9 @@ $jumbotronpadding: 20px;
 .wrapper{
        // background: ;
 }
+table{
+    width: 100%;
+}
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
 .jumbobackground{
@@ -67,16 +70,11 @@ body, html, .wrapper{
 }
 .wrapper{
     margin-bottom: 200px;
+    padding-bottom: 200px;
 }
-footer{
-    margin: 0 auto;
-    display: block;
-    background: white;
-    padding: 0.5rem;
-    position: fixed;
-    height: 3rem;
-    bottom: 0;
+img{
     width: 100%;
+    padding-top: 20px;
 }
 /**********Sticky Footer**********/
 @import 'sticky-footer';

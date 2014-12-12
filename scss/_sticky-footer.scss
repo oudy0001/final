@@ -1,4 +1,4 @@
-$footerHeight: 100px;
+$footerHeight: 90px;
 $footerPadding: 10px;
 
 
@@ -6,25 +6,25 @@ $footerPadding: 10px;
 	margin: 0;
 }
 html, body {
-	height: 100%;
+	min-height: 100%;
 }
 .wrapper {
   min-height: 100%;
     padding-top: 1px;
     margin-top: 20px;
+    height: 100%;
+    overflow: scroll;
+    margin-bottom:  $footerHeight + (2 * $footerPadding);
 }
 .wrapper:after {
   content: "";
   display: block;
 }
 footer{
-	height: $footerHeight + (2 * $footerPadding); 
-}
-footer {
-    
+    margin-top: 20px; 
     text-align: center;
-    	height: $footerHeight; 
+    height: $footerHeight; 
     padding: $footerPadding;
-  color: #444;
-    background-color: #ddd;
+  color: #ddd;
+    background-color: #333;
 }
